@@ -1,0 +1,8 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false #of客户端就不把他注册到eureka中了,做微服务了
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka
